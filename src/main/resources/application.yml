@@ -1,0 +1,13 @@
+server:
+    port: 80
+    
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: https://nameless-bayou-22996.herokuapp.com/eureka/
+      
+spring:
+  rabbitmq: 
+    host: amqp://dinmvuyy:cG1HHryL4Wd5mLlX0mBIMXNM1b6iE9JM@white-mynah-bird.rmq.cloudamqp.com/dinmvuyy
+    username: dinmvuyy
+    password: cG1HHryL4Wd5mLlX0mBIMXNM1b6iE9JM
